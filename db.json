@@ -1,13 +1,99 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title" },
-    { "id": "2", "title": "another title" }
+  "accounts": [
+    {
+      "accountId": "account1",
+      "email": "user1@example.com",
+      "authToken": "token123",
+      "creationDate": "2022-01-02"
+    },
+    {
+      "accountId": "account2",
+      "email": "user2@example.com",
+      "authToken": "token456",
+      "creationDate": "2022-02-15"
+    },
+    {
+      "accountId": "account3",
+      "email": "user2@example.com",
+      "authToken": "token456",
+      "creationDate": "2022-02-15"
+    }
   ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  "profiles": [
+    {
+      "profileId": "someProfileId1",
+      "country": "Country1",
+      "marketplace": "Marketplace1",
+      "accountId": "account1"
+    },
+    {
+      "profileId": "someProfileId2",
+      "country": "Country2",
+      "marketplace": "Marketplace2",
+      "accountId": "account2"
+    },
+    {
+      "profileId": "someProfileId3",
+      "country": "Country3",
+      "marketplace": "Marketplace3",
+      "accountId": "account2"
+    },
+    {
+      "profileId": "someProfileId4",
+      "country": "Country3",
+      "marketplace": "Marketplace3",
+      "accountId": "account2"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "campaigns": [
+    {
+      "campaignId": "campaign1",
+      "clicks": 100,
+      "cost": 500,
+      "date": "2022-01-01",
+      "profileId": "someProfileId1"
+    },
+    {
+      "campaignId": "campaign2",
+      "clicks": 150,
+      "cost": 750,
+      "date": "2022-01-02",
+      "profileId": "someProfileId2"
+    },
+    {
+      "campaignId": "campaign3",
+      "clicks": 120,
+      "cost": 600,
+      "date": "2022-02-01",
+      "profileId": "someProfileId3"
+    },
+    {
+      "campaignId": "campaign4",
+      "clicks": 200,
+      "cost": 1000,
+      "date": "2022-02-15",
+      "profileId": "someProfileId4"
+    },
+    {
+      "campaignId": "campaign5",
+      "clicks": 200,
+      "cost": 1000,
+      "date": "2022-02-15",
+      "profileId": "someProfileId4"
+    },
+    {
+      "campaignId": "campaign9",
+      "clicks": 200,
+      "cost": 1000,
+      "date": "2022-02-15",
+      "profileId": "someProfileId4"
+    },
+    {
+      "campaignId": "campaign7",
+      "clicks": 200,
+      "cost": 1000,
+      "date": "2022-02-15",
+      "profileId": "someProfileId4"
+    }
+  ]
 }
