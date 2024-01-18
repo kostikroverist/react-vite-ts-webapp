@@ -33,7 +33,7 @@ Follow these steps to get the project up and running on your local machine.
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/kostikroverist/rentzila-duplicate.git
+    git clone https://github.com/kostikroverist/react-vite-ts-webapp.git
     ```
 
 2. Install dependencies:
@@ -68,6 +68,5 @@ Follow these steps to get the project up and running on your local machine.
 - eslint-plugin-react-hooks: ESLint plugin for React hooks.
 - eslint-plugin-react-refresh: ESLint plugin for React Refresh.
 - postcss: Tool for transforming styles with JS plugins.
-- tailwindcss: Utility-first CSS framework.
 - typescript: Superset of JavaScript that adds static types.
 - vite: Next-generation frontend tooling for modern web development.
